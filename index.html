@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JDM DRIFT PLAYGROUND</title>
+  <meta name="description" content="Beginner-friendly real JDM drift at Tsukuba Circuit. 3.5-hour morning or afternoon sessions with pro instructors and manual turbo cars." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">JDM DRIFT PLAYGROUND</div>
+      <nav class="lang-switch">
+        <button id="btn-en" class="lang-btn is-active" aria-pressed="true">EN</button>
+        <span class="divider">/</span>
+        <button id="btn-ja" class="lang-btn" aria-pressed="false">日本語</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="section hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title" data-i18n="hero.title">Real JDM drift, made easy.</h1>
+        <p class="hero-kicker" data-i18n="hero.kicker">Beginner-friendly • Tsukuba Circuit</p>
+        <p class="hero-desc" data-i18n="hero.desc">
+          Choose a 3.5-hour morning or afternoon session at the legendary Tsukuba Circuit. Pro instructor, manual turbo cars. Perfect for first-timers.
+        </p>
+        <div class="hero-cta">
+          <a href="#pricing" class="btn" data-i18n="hero.btnPricing">View pricing</a>
+          <a href="#cars" class="btn btn-outline" data-i18n="hero.btnCars">See cars</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cars -->
+    <section id="cars" class="section">
+      <div class="container">
+        <h2 data-i18n="cars.title">Cars built for drift</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-media media-placeholder" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="cars.mark2.title">Mark II (MT • Turbo)</h3>
+              <p class="card-text" data-i18n="cars.mark2.text">
+                Manual gearbox with a modified turbo setup tuned for full drift.
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media media-placeholder" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="cars.crown.title">Crown (MT • Turbo)</h3>
+              <p class="card-text" data-i18n="cars.crown.text">
+                Manual, turbo-modified build to keep you sliding with confidence.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section section-muted">
+      <div class="container">
+        <h2 data-i18n="gallery.title">Photo gallery</h2>
+        <div class="grid gallery-grid" aria-label="Drift photos">
+          <!-- Drop your images into /assets/images and update the src attributes below -->
+          <img src="assets/images/gallery-1.jpg" alt="" loading="lazy" />
+          <img src="assets/images/gallery-2.jpg" alt="" loading="lazy" />
+          <img src="assets/images/gallery-3.jpg" alt="" loading="lazy" />
+          <img src="assets/images/gallery-4.jpg" alt="" loading="lazy" />
+          <img src="assets/images/gallery-5.jpg" alt="" loading="lazy" />
+          <img src="assets/images/gallery-6.jpg" alt="" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 data-i18n="pricing.title">Simple pricing</h2>
+        <ul class="pricing-points">
+          <li data-i18n="pricing.point1">Morning session: 3.5 hours</li>
+          <li data-i18n="pricing.point2">Afternoon session: 3.5 hours</li>
+        </ul>
+        <div class="price">
+          <span class="price-amount" data-i18n="pricing.price">¥150,000 per person</span>
+        </div>
+        <p class="muted" data-i18n="pricing.note">Short cool-down/rest is included in the session time.</p>
+      </div>
+    </section>
+
+    <!-- Q&A -->
+    <section id="qa" class="section section-muted">
+      <div class="container">
+        <h2 data-i18n="qa.title">Q & A</h2>
+
+        <div class="qa-item">
+          <h3 data-i18n="qa.q1.q">What if there’s a crash?</h3>
+          <p data-i18n="qa.q1.a">
+            Drivers are responsible for damages. The area is large with almost no obstacles, and a professional driver is present — crashes are very unlikely.
+          </p>
+        </div>
+
+        <div class="qa-item">
+          <h3 data-i18n="qa.q2.q">How many people can join?</h3>
+          <p data-i18n="qa.q2.a">
+            No fixed minimum or maximum. We may limit numbers in some cases for safety or quality.
+          </p>
+        </div>
+
+        <div class="qa-item">
+          <h3 data-i18n="qa.q3.q">When do I pay?</h3>
+          <p data-i18n="qa.q3.a">
+            Payment must be made in advance. Your slot is confirmed after payment.
+          </p>
+        </div>
+
+        <div class="qa-item">
+          <h3 data-i18n="qa.q4.q">Access</h3>
+          <p data-i18n="qa.q4.a">
+            Held at Tsukuba Circuit. Easy access from Tokyo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="booking" class="section">
+      <div class="container">
+        <h2 data-i18n="booking.title">Booking</h2>
+        <p data-i18n="booking.desc">
+          Tell us your preferred date, session (morning/afternoon), and number of people.
+        </p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-label">Email</div>
+            <a href="mailto:booking@jdmdriftplayground.com" class="contact-value">booking@jdmdriftplayground.com</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-label">WhatsApp</div>
+            <a href="https://wa.me/818045750033" class="contact-value">+81 80-4575-0033</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 JDM DRIFT PLAYGROUND</p>
+    </div>
+  </footer>
+
+  <script src="lang.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
